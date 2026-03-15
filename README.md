@@ -87,6 +87,32 @@ require("rose-pine-vague").setup({
 - Mini Statusline
 - Todo Comments
 
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request.
+
+### Repository Rules
+
+This repository has branch protection rules on `main`:
+
+- **No force pushes** - History is preserved
+- **Pull requests required** - All changes must go through PRs
+- **No direct pushes** - Prevents accidental commits to main
+- **Branch deletion protected** - Main branch cannot be deleted
+
+### Development Setup
+
+```bash
+# Clone the repo
+git clone https://github.com/hamptonian/rose-pine-vague.nvim.git
+cd rose-pine-vague.nvim
+
+# Install in Neovim for testing (symlink method)
+ln -s $(pwd) ~/.local/share/nvim/site/pack/plugins/start/rose-pine-vague.nvim
+
+# Or use lazy.nvim local path in your config
+```
+
 ## License
 
 MIT
